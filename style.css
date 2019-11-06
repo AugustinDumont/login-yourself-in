@@ -1,0 +1,34 @@
+body {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+.inline {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.frm-to-login {
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.pad-left {
+    padding-left: 8px;
+}
+
+h1 {
+    color:
+}
+
+.frm_to_signup {
+    padding-top: 50px;
+}
+
+label {
+    opacity: 0.8;
+}
+
+.form-control {
+    opacity: 0.5;
+}
