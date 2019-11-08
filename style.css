@@ -10,18 +10,15 @@ body {
 
 .frm-to-login {
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 .pad-left {
     padding-left: 8px;
 }
 
-h1 {
-    color:
-}
 
-.frm_to_signup {
+.frm-to-signup {
     padding-top: 50px;
 }
 
@@ -31,4 +28,103 @@ label {
 
 .form-control {
     opacity: 0.5;
+}
+
+.btn-right {
+    position: absolute;
+    right: 160px;
+}
+
+/* alert */
+
+.alert-width {
+    display: flex;
+    align-items: center;
+    min-width: 0px;
+    height: 30px;
+    font-size: 0.7em;
+    opacity: 0.8;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+/* account.php */
+
+.account {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+}
+
+.align-left {
+    grid-column: 1;
+    padding-left: 40px;
+}
+
+.align-right {
+    grid-column: 2;
+    padding-right: 40px;
+}
+
+.frm-to-edit {
+    align-items: baseline;
+
+}
+
+.usr-disconnect {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10vh;
+
+}
+
+.user {
+    padding-right: 10px;
+}
+
+.frm-to-edit,
+.frm-to-edit input {
+    font-size: 0.75em;
+}
+
+.inline-btn {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.inline-btn button a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.trout-picture {
+    width: 60%;
+    opacity: 0.7;
+    padding-left: 50px;
+}
+
+.trout-picture:hover {
+    opacity: 1;
+}
+
+
+/* error validation */
+
+.error {
+    padding-left: 20px;
+    color: red;
+    opacity: 0.6;
+    font-size: 0.8em;
+}
+
+/* abbreviation */
+abbr[data-original-title],
+abbr[title] {
+    text-decoration: none;
 }

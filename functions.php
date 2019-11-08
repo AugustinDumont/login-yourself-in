@@ -1,12 +1,11 @@
 <?php
 
-function test_password($login)
+function test_password($pass)
 {
-    $data = stripslashes($login); // remove the \
-    $data = htmlspecialchars($login); // convert special characters in html characters
-    return $login;
+    $pass = stripslashes($pass); // remove the \
+    $pass = htmlspecialchars($pass); // convert special characters in html characters
+    return $pass;
 };
-
 
 function test_input($data)
 { // allow to sort display datas from user before posting
